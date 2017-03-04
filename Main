@@ -25,3 +25,14 @@ public void go() {
         t.start();
     }
     
+public GamePanel(Flappyplane fp, Plane plane, ArrayList<Rectangle> rects) {
+        this.fp = fp;
+        this.plane = plane;
+        this.rects = rects;
+        scoreFont = new Font("Comic Sans MS", Font.BOLD, 18);
+        pauseFont = new Font("Arial", Font.BOLD, 48);
+        
+}
+    
+    
+    
